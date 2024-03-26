@@ -40,11 +40,11 @@ public class TpCleanCode {
 
         entier = new int[tailletableau];
 
-        int a;
+        
 
         for (int i = 0; i < tailletableau; i++) {
             System.out.print("n°: ");
-            a = scan.nextInt();
+            entier[i] = scan.nextInt();
         }
         return entier;
     }
